@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cadastro - Ação do Bem</title>
+<link rel="stylesheet" href="assets/css/styles.css">
+<script src="js/scripts.js"></script>
+</head>
+<body>
+<header>
+<h1>Cadastro de Voluntário/Doador</h1>
+<nav>
+  <a href="index.html">Início</a>
+  <a href="projetos.html">Projetos</a>
+  <a href="cadastro.html">Cadastro</a>
+</nav>
+</header>
+<main>
+<form id="cadastroForm">
+<fieldset>
+<legend>Informações Pessoais</legend>
+<label>Nome Completo: <input type="text" name="nome" required></label><br>
+<label>Email: <input type="email" name="email" required></label><br>
+<label>CPF: <input type="text" name="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="000.000.000-00" required></label><br>
+<label>Telefone: <input type="tel" name="telefone" pattern="\(\d{2}\) \d{5}-\d{4}" placeholder="(11) 99999-9999" required></label><br>
+<label>Data de Nascimento: <input type="date" name="nascimento" required></label><br>
+<label>Endereço: <input type="text" name="endereco" required></label><br>
+<label>CEP: <input type="text" name="cep" pattern="\d{5}-\d{3}" placeholder="00000-000" required></label><br>
+<label>Cidade: <input type="text" name="cidade" required></label><br>
+<label>Estado: <input type="text" name="estado" required></label><br>
+<button type="submit">Cadastrar</button>
+</fieldset>
+</form>
+</main>
+<footer>
+<p>&copy; 2025 Ação do Bem</p>
+</footer>
+</body>
+</html>
