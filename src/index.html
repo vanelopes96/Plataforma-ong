@@ -1,33 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ação do Bem - Início</title>
-<link rel="stylesheet" href="assets/css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma ONGs - Conectando Solidariedade</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-<header>
-<h1>Ação do Bem</h1>
-<nav>
-  <a href="index.html">Início</a>
-  <a href="projetos.html">Projetos</a>
-  <a href="cadastro.html">Cadastro</a>
-</nav>
-</header>
-<main>
-<section>
-<h2>Sobre Nós</h2>
-<p>Engajamos voluntários e captamos recursos para projetos sociais.</p>
-<img src="assets/imagens/projeto1.png" alt="Voluntários em ação">
-</section>
-<section>
-<h2>Contato</h2>
-<p>Email: contato@acaodobem.org | Telefone: (11) 99999-9999</p>
-</section>
-</main>
-<footer>
-<p>&copy; 2025 Ação do Bem</p>
-</footer>
+    <header>
+        <nav>
+            <div class="logo">🌐 Plataforma ONGs</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="cadastro.html">Seja Voluntário</a></li>
+                <!-- O link de login será adicionado dinamicamente via JS se não houver usuário logado -->
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Plataforma de ONGs</h1>
+            <p>Conectando pessoas que querem ajudar com organizações que transformam vidas</p>
+            <div id="hero-stats-container" class="hero-stats">
+                <!-- Stats serão inseridos aqui pelo JS -->
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <h2 class="section-title">ONGs Parceiras</h2>
+        <p class="section-subtitle">Conheça as organizações que estão transformando o Brasil</p>
+        <div id="ongs-grid-container" class="ongs-grid">
+            <!-- Cards das ONGs serão inseridos aqui pelo JS -->
+        </div>
+    </section>
+
+    <footer>
+        <!-- O conteúdo do footer será inserido aqui pelo JS -->
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/index.js"></script>
 </body>
 </html>
